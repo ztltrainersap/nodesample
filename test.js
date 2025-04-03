@@ -2,7 +2,7 @@ console.log("Hello and Welcome to CAP training"); //javascript testing
 var x=10;
 console.log(x); //print on console
 
-//Array with json
+//Array with json by Kumud
 var employeerecords=
 [
     {
