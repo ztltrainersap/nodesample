@@ -31,10 +31,30 @@ console.log(employeerecords[1].emplyeeID);
 // parenthesis : ()
 // Array : index []
 
-function number()
-{
-  
-    var val1=10;
-    var val2=20;
+var array=["Delhi","Mumbai","Hyderabad"];
+var arrayStates=["Maharashtra","Chennai","Telangana"];
 
+var printf=function(array){
+    for(let i=0;i<array.length;i++){
+        const element=array[i];
+        console.log(element);
+    }
 }
+var v1=10;
+var v2=20;
+
+var add=function(v1,v2){
+    return v1+v2;
+}
+
+const sum=(v1,v2)=>v1+v2;
+console.log(sum(20,40));
+
+var sub=function(v1,v2){
+    return v1-v2;
+}
+console.log(add(10,20));
+console.log(sub(20,10));
+console.log(array);
+console.log(arrayStates);
+
